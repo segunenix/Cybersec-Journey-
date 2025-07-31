@@ -19,7 +19,7 @@ That was the missing step! The issue happened because I’m running all my opera
 
 **Steps**
 1. Add a New Agent on Manager.
-Run the manage_agents tool:
+*Run the manage_agents tool:
 ```sudo /var/ossec/bin/manage_agents```
 2. Copy the agent key.
 3. Register the agent on the endpoint.
