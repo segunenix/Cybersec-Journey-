@@ -16,13 +16,10 @@ That was the missing step! The issue happened because I’m running all my opera
 ---
 
 ## ✅ Correct Steps to Connect Agent
-
+Note: Wazuh Agents can either be installed through GUI or CLI(depending on the OS). This is for Windows.
 **Steps**
-1. Add a New Agent on Manager.
-*Run the manage_agents tool:
-```sudo /var/ossec/bin/manage_agents```
-2. Copy the agent key.
-3. Register the agent on the endpoint.
-4. Start the agent.
+1. Download Wazuh agent software on the website.
+2. Install it and input your manager IP address.
+3. Start the agent.
 
 
