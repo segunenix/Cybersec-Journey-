@@ -1,17 +1,11 @@
 # 📊 Logs Analysis in Wazuh
 
-This document explains how I analyzed alerts in Wazuh after connecting the agent. It includes my personal experience, the steps I followed, and the mapping to MITRE ATT&CK.
+This document explains how I analyzed alerts in Wazuh after connecting the agent. It includes my personal experience and the steps i followed.
 
 ---
 
 ## ✅ My Experience
-When I first connected the agent, I expected to see alerts immediately, but the dashboard was empty.  
-I later learned that Wazuh only alerts when specific events occur. So I needed to **generate logs** manually by performing actions like:
-- Entering wrong SSH credentials
-- Modifying system files
-- Running suspicious commands
-
-This was the turning point for me in understanding **how Wazuh detection works**.
+Not gonna lie, my experiece here was quite smooth. I didnt have any problems.
 
 ---
 
