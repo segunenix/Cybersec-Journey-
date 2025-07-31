@@ -31,25 +31,3 @@ Wazuh detected the activity and raised the following alert:
 
 
 ---
-
-## ✅ Other Alerts Reviewed
-1. **File Integrity Monitoring:** Modification of system files.  
-2. **Privilege Escalation:** Attempt to gain higher privileges.  
-(See detailed attack simulations in the [Detection Labs](../detection-labs/) section.)
-
----
-
-## ✅ Key Learnings
-- Wazuh alerts are **log-driven**, not automatic.
-- To analyze alerts effectively:
-  - Know the **source log files** (e.g., `auth.log`, Windows Event Logs).
-  - Understand the **MITRE ATT&CK mapping** for each alert.
-- Simulating attacks is the best way to learn detection and response.
-
----
-
-### ✅ Next Steps
-- Expand detection coverage by simulating:
-  - Privilege Escalation ([Lab here](../detection-labs/privilege-escalation-test.md))
-  - Malware Execution
-  - Suspicious Process Activity
