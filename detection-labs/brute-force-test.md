@@ -29,7 +29,6 @@ Wazuh detected the activity and raised the following alert:
 - **Tactic:** Credential Access
 - **Why Detected:** Wazuh monitored repeated failed authentication attempts in system logs.
 
-**Full Simulation Steps → [Brute Force Detection Lab](../detection-labs/brute-force-test.md)**
 
 ---
 
