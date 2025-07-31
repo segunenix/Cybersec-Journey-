@@ -34,6 +34,6 @@ foreach ($pwd in $WrongPasswords) {
 }
 Write-Host "Simulation complete. Check Event Viewer (Security) for Event ID 4625."
 ```
-Screenshot 2025-07-30 141011.pngs
+https://github.com/segunenix/AllScreenshots/blob/05f3de61764c2903a7190bd15b0a231a69ce76a2/Screenshot%202025-07-30%20141011.png
 
 
