@@ -17,7 +17,7 @@ That was the missing step! The issue happened because I’m running all my opera
 
 ## ✅ Correct Steps to Connect Agent
 
-**Steps
+**Steps**
 1: Add a New Agent on Manager.
 Run the manage_agents tool:
 >sudo /var/ossec/bin/manage_agents
