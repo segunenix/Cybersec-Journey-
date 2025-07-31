@@ -1,7 +1,6 @@
 # 📊 Wazuh Logs Analysis
 
-This section summarizes how I analyzed alerts in Wazuh after setting up the manager and agent.  
-The goal was to understand:
+This section summarizes how I analyzed alerts in Wazuh after setting up the manager and agent:
 - What events generate alerts
 - How to interpret alert details
 - How to map alerts to MITRE ATT&CK techniques
