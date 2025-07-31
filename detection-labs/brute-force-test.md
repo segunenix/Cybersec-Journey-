@@ -22,7 +22,7 @@ Wazuh detected the activity and raised the following alert:
 - **Description:** Multiple SSH authentication failures  
 - **Severity:** High  
 
-![Example Alert](screenshots/alert-example.png)
+[![Example Alert](screenshots/alert-example.png)](https://github.com/segunenix/AllScreenshots/blob/05f3de61764c2903a7190bd15b0a231a69ce76a2/Screenshot%202025-07-29%20201104.png)
 
 ### **What This Means**
 - **Technique:** Brute Force (MITRE ATT&CK T1110)
