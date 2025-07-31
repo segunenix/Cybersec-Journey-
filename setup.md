@@ -1,6 +1,6 @@
 ## Wazuh Setup Guide
 
-This guide covers installing **Wazuh Manager** and **Wazuh Agent** in a home lab environment.
+This guide covers installing **Wazuh Manager** and **Wazuh Agent** in a home lab environment on the same machine.
 
 ---
 
@@ -21,14 +21,13 @@ This guide covers installing **Wazuh Manager** and **Wazuh Agent** in a home lab
 
 ## ✅ **Step 1: Update Your Manager**
 
->sudo apt update && sudo apt upgrade -y
+```sudo apt update && sudo apt upgrade -y```
 
 ---
 
 ## ✅ **Step 2: Install Wazuh Manager**
 
->curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh
-sudo bash wazuh-install.sh -a
+```curl -sO https://packages.wazuh.com/4.x/wazuh-install.sh sudo bash wazuh-install.sh -a```
 
 
 ## ✅ **Step 3: Install Wazuh Agent(Both Windows)**
