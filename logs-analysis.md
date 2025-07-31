@@ -34,4 +34,4 @@ foreach ($pwd in $WrongPasswords) {
 }
 Write-Host "Simulation complete. Check Event Viewer (Security) for Event ID 4625."
 ```
-![(simulated)Brute Force Command](Segundevsz/screenshots/blob/main/Screenshot%202025-07-30%20141011.png)
+
