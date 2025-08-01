@@ -1,1 +1,28 @@
+# 🛡️ Blue Team Fundamentals
 
+This note summarizes key concepts for defensive security and monitoring.
+
+---
+
+## ✅ Core Concepts
+- **Defense in Depth:** Multiple layers of security controls.
+- **Least Privilege:** Users should only have the permissions they need.
+- **Zero Trust:** Never trust, always verify(always).
+
+---
+
+## ✅ Key Components
+- **SIEM (Security Information and Event Management):**
+  - Collects and correlates logs from different sources.
+- **EDR (Endpoint Detection and Response):**
+  - Detects and responds to endpoint threats.
+- **HIDS/HIPS:**
+  - Host-based Intrusion Detection/Prevention Systems.
+
+---
+
+## ✅ Incident Response Basics
+- **Preparation:** Policies, tools, and training.
+- **Detection & Analysis:** Identifying alerts and confirming incidents.
+- **Containment, Eradication, Recovery:** Stop and fix the attack.
+- **Lessons Learned:** Improve security posture.
