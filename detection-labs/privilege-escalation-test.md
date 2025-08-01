@@ -11,12 +11,6 @@ This lab simulates a **privilege escalation attempt** on Windows and demonstrate
 
 ---
 
-## ✅ My Experience
-*(Write your experience here after testing. Example:)*
-At first, I thought running `runas` would immediately create a critical alert, but nothing appeared until I enabled the right Sysmon event IDs in my configuration. This taught me that detection depends heavily on correct event logging.
-
----
-
 ## ✅ Lab Setup
 - **Machine:** Windows with Wazuh Agent + Sysmon installed
 - **Manager:** Wazuh on Ubuntu
@@ -27,7 +21,18 @@ At first, I thought running `runas` would immediately create a critical alert, b
 ## ✅ Steps to Simulate Privilege Escalation
 
 ### **Step 1: Launch PowerShell as Administrator**
-Run:
-```powershell
-Start-Process PowerShell -Verb RunAs
+### **Step 2: Create a New User With This Command**
+```net user testuser Password123 /add```
+https://github.com/segunenix/AllScreenshots/blob/e2add480b00286264a2f7b3a7be75f7eca6a6242/Screenshot%202025-08-01%20055946.png
+### **Step 3: Open Powershell as the newly Created User**
+```runas /user:testuser powershell```
+https://github.com/segunenix/AllScreenshots/blob/e2add480b00286264a2f7b3a7be75f7eca6a6242/Screenshot%202025-08-01%20060427.png
+NOTE: A new window will appear 
+### **Step 4: Now Open Powershell as an Admin from the new user(testuser)**
+```runas /user:Admin powershell```
+https://github.com/segunenix/AllScreenshots/blob/e2add480b00286264a2f7b3a7be75f7eca6a6242/Screenshot%202025-08-01%20060103.png
+These will trigger a privilege escalation event with Event ID (4672)
+
+https://github.com/segunenix/AllScreenshots/blob/e2add480b00286264a2f7b3a7be75f7eca6a6242/Screenshot%202025-08-01%20054403.png
+
 
