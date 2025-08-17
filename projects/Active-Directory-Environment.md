@@ -27,7 +27,9 @@ https://github.com/segunenix/AllScreenshots/blob/0c16ce2fd599e084d82bdbbe6d43309
 - Assigned static IPs:  
   - `192.168.10.7` → Windows Server (Domain Controller)  
   - `192.168.10.100` → Windows 11 Client  
+https://github.com/segunenix/AllScreenshots/blob/27d20a7ae65ca842a0f2bb0d4ad00b9b50801606/Screenshot%202025-08-17%20123139.png
   - `192.168.10.10` → Ubuntu Server (Splunk Enterprise)  
+https://github.com/segunenix/AllScreenshots/blob/4a4f72ff5b1c1376c3e95f6302b8bec5ff71a179/Screenshot%202025-08-17%20123429.png
 
 ### Domain Controller Setup  
 - Installed AD DS role on Windows Server.  
@@ -52,27 +54,26 @@ https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig
 - Installed Splunk Enterprise on Ubuntu Server.  
 - Installed Splunk Universal Forwarder on both Windows machines.  
 - Configured forwarders to send Sysmon logs to Splunk.  
-- Created dashboards to monitor authentication events and system activity.  
+https://github.com/segunenix/AllScreenshots/blob/733864558f54ad11741e37cbe71b77c26327e13a/Screenshot%202025-08-17%20120613.png 
 
 ---
 
 ## Challenges & Fixes  
 - **Problem:** Sysmon logs not showing in Splunk.  
   - **Fix:** Updated Splunk inputs.conf file (True and fales were suppose to be 1 and 0).  
+https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a319edb12547/Screenshot%202025-08-17%20121212.png
 https://github.com/MyDFIR/Active-Directory-Project
 - **Problem:** Splunk web interface not accessible.  
-  - **Fix:** Allowed firewall rules, confirmed service was running on port 8000.  
+  - **Fix:** Confirmed service was running on port 8000.  
 
-*(add more as you go along)*  
 
 ---
 
 ## Results  
 - Successfully logged in with domain user accounts.  
-- Sysmon logs collected and analyzed in Splunk.  
-- Built a Splunk dashboard to visualize security events.  
-
-*(insert screenshots from `/screenshots/` folder here)*  
+https://github.com/segunenix/AllScreenshots/blob/8b980588e3ced3fc8c30581bc1d2f4d6294e5f4b/Screenshot%202025-08-17%20121647.png
+- Sysmon logs collected and analyzed in Splunk.
+https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a319edb12547/Screenshot%202025-08-17%20120613.png
 
 ---
 
