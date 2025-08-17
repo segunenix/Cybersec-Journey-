@@ -24,6 +24,7 @@ https://github.com/segunenix/AllScreenshots/blob/0c16ce2fd599e084d82bdbbe6d43309
 
 ### Network Configuration  
 - Configured a custom NAT network.  
+https://github.com/segunenix/AllScreenshots/blob/680a3a2875958360d41deb2de8b1b41d097e9bef/Screenshot%202025-08-17%20122214.png
 - Assigned static IPs:  
   - `192.168.10.7` → Windows Server (Domain Controller)  
   - `192.168.10.100` → Windows 11 Client  
