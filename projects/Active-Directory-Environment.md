@@ -60,8 +60,7 @@ https://github.com/segunenix/AllScreenshots/blob/30a21fde7aa8a8031655ad92fde743e
 
 ### Sysmon Installation  
 - Installed Sysmon on both Windows machine with a custom config(olaf config).
-https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig.xml  
-- Generated logs for process creation, network connections, and registry changes.  
+https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig.xml
 
 ### Splunk Integration  
 - Installed Splunk Enterprise on Ubuntu Server.  
