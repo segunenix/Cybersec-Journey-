@@ -43,16 +43,18 @@ https://github.com/segunenix/AllScreenshots/blob/bd9e7bb262600cbb392888b5ad8269e
 https://github.com/segunenix/AllScreenshots/blob/c7a5d21d84c0ea291128196cccc3757d7fac97f0/Screenshot%202025-08-17%20130409.png
 - ADUC (Active Directory Users and Computers) Console.
 https://github.com/segunenix/AllScreenshots/blob/bb7c5f760ae805ff8563682b6f58abc3cb389eb4/Screenshot%202025-08-17%20130638.png
-
+- Installed Sysmon with a custom config(olaf config).
+https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig.xml
 
 
 ### User & Group Management  
 - Created organizational units (OU).  
 https://github.com/segunenix/AllScreenshots/blob/30a21fde7aa8a8031655ad92fde743ede6351fb5/Screenshot%202025-08-17%20131747.png
 (I created the organizational unit HR and IT)
-- Added test users
-
-- Grouped users for easier policy management.  
+- Added test users in different groups
+https://github.com/segunenix/AllScreenshots/blob/1aa4451ccd8fc79555cf307df993ecdd8d44c1cc/Screenshot%202025-08-17%20153513.png
+https://github.com/segunenix/AllScreenshots/blob/1aa4451ccd8fc79555cf307df993ecdd8d44c1cc/Screenshot%202025-08-17%20153529.png
+(I Grouped the users for easier policy management.)
 
 ---
 
@@ -63,9 +65,18 @@ https://github.com/segunenix/AllScreenshots/blob/30a21fde7aa8a8031655ad92fde743e
 https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig.xml
 
 ### Splunk Integration  
-- Installed Splunk Enterprise on Ubuntu Server.  
+- Installed Splunk Enterprise on Ubuntu Server. 
+ https://github.com/segunenix/AllScreenshots/blob/b39c9dd503bbeb6ea1be2bd065737ad67d2586dc/Screenshot%202025-08-17%20160339.png
+https://github.com/segunenix/AllScreenshots/blob/56fdcf54cebb7bf9da507ddb216ffffcfee65797/Screenshot%202025-08-17%20161307.png
+(Accessed the server through the windows server)
 - Installed Splunk Universal Forwarder on both Windows machines.  
+https://github.com/segunenix/AllScreenshots/blob/56fdcf54cebb7bf9da507ddb216ffffcfee65797/Screenshot%202025-08-17%20161254.png
+https://github.com/segunenix/AllScreenshots/blob/27b476ea81f9139f831e78e6009f9c0633c2939b/Screenshot%202025-08-17%20162414.png
 - Configured forwarders to send Sysmon logs to Splunk.  
+**In this file path (C:\Program Files\SplunkUniversalForwarder\etc\system\local) on my windows server i was able to make some changes. the output.conf file contained this:**
+https://github.com/segunenix/AllScreenshots/blob/c93ac96c46af0bd865c5238d2530bef5ba154e06/Screenshot%202025-08-17%20164500.png
+**i created a new file named inputs.conf, it contained this:**
+https://github.com/segunenix/AllScreenshots/blob/c93ac96c46af0bd865c5238d2530bef5ba154e06/Screenshot%202025-08-17%20164632.png
 
 ---
 
