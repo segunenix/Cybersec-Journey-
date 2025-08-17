@@ -92,8 +92,6 @@ https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a31
 ---
 
 ## Results  
-- Successfully logged in with domain user accounts.  
-https://github.com/segunenix/AllScreenshots/blob/8b980588e3ced3fc8c30581bc1d2f4d6294e5f4b/Screenshot%202025-08-17%20121647.png
 - Sysmon logs collected and analyzed in Splunk.
 https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a319edb12547/Screenshot%202025-08-17%20120613.png
 
