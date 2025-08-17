@@ -27,6 +27,7 @@ https://github.com/segunenix/AllScreenshots/blob/0c16ce2fd599e084d82bdbbe6d43309
 https://github.com/segunenix/AllScreenshots/blob/680a3a2875958360d41deb2de8b1b41d097e9bef/Screenshot%202025-08-17%20122214.png
 - Assigned static IPs:  
   - `192.168.10.7` → Windows Server (Domain Controller)  
+https://github.com/segunenix/AllScreenshots/blob/c775c08947db11242e61b7893eb0ce6fc481a222/Screenshot%202025-08-17%20124647.png
   - `192.168.10.100` → Windows 11 Client  
 https://github.com/segunenix/AllScreenshots/blob/27d20a7ae65ca842a0f2bb0d4ad00b9b50801606/Screenshot%202025-08-17%20123139.png
   - `192.168.10.10` → Ubuntu Server (Splunk Enterprise)  
@@ -34,8 +35,16 @@ https://github.com/segunenix/AllScreenshots/blob/4a4f72ff5b1c1376c3e95f6302b8bec
 
 ### Domain Controller Setup  
 - Installed AD DS role on Windows Server.  
+https://github.com/segunenix/AllScreenshots/blob/73ba55cd34433fed0ec5f8503c316487447b7534/Screenshot%202025-08-17%20125305.png
 - Promoted server to Domain Controller.  
-- Configured DNS and DHCP.  
+https://github.com/segunenix/AllScreenshots/blob/bd9e7bb262600cbb392888b5ad8269e0b97038b4/Screenshot%202025-08-17%20125551.png
+(i already promoted it without taking a screenshot, but the flag will be in the marked place)
+- Configured DNS. 
+https://github.com/segunenix/AllScreenshots/blob/c7a5d21d84c0ea291128196cccc3757d7fac97f0/Screenshot%202025-08-17%20130409.png
+- ADUC (Active Directory Users and Computers) Console.
+https://github.com/segunenix/AllScreenshots/blob/bb7c5f760ae805ff8563682b6f58abc3cb389eb4/Screenshot%202025-08-17%20130638.png
+
+
 
 ### User & Group Management  
 - Created organizational units (OU).  
