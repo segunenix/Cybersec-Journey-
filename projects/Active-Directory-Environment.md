@@ -30,7 +30,7 @@ https://github.com/segunenix/AllScreenshots/blob/680a3a2875958360d41deb2de8b1b41
   - `192.168.10.7` → Windows Server (Domain Controller)  
 https://github.com/segunenix/AllScreenshots/blob/c775c08947db11242e61b7893eb0ce6fc481a222/Screenshot%202025-08-17%20124647.png
   - `192.168.10.100` → Windows 11 Client  
-https://github.com/segunenix/AllScreenshots/blob/27d20a7ae65ca842a0f2bb0d4ad00b9b50801606/Screenshot%202025-08-17%20123139.png
+https://github.com/segunenix/AllScreenshots/blob/27d20a7ae65ca842a0f2bb0d4ad00b9b50801606/Screenshot%202025-08-17%20123139.png (Adapter 3 is the Active directory network)
   - `192.168.10.10` → Ubuntu Server (Splunk Enterprise)  
 https://github.com/segunenix/AllScreenshots/blob/4a4f72ff5b1c1376c3e95f6302b8bec5ff71a179/Screenshot%202025-08-17%20123429.png
 
