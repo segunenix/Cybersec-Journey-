@@ -38,7 +38,7 @@ https://github.com/segunenix/AllScreenshots/blob/4a4f72ff5b1c1376c3e95f6302b8bec
 https://github.com/segunenix/AllScreenshots/blob/73ba55cd34433fed0ec5f8503c316487447b7534/Screenshot%202025-08-17%20125305.png
 - Promoted server to Domain Controller.  
 https://github.com/segunenix/AllScreenshots/blob/bd9e7bb262600cbb392888b5ad8269e0b97038b4/Screenshot%202025-08-17%20125551.png
-(i already promoted it without taking a screenshot, but the flag will be in the marked place)
+(i already promoted it without taking a screenshot, but the flag will be in the marked spot)
 - Configured DNS. 
 https://github.com/segunenix/AllScreenshots/blob/c7a5d21d84c0ea291128196cccc3757d7fac97f0/Screenshot%202025-08-17%20130409.png
 - ADUC (Active Directory Users and Computers) Console.
