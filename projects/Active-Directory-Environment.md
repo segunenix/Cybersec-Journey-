@@ -1,4 +1,4 @@
-# Active Directory Home Lab Project 🖥️🔐
+# Active Directory Environment Home Lab Project 🖥️🔐
 ## Introduction  
 This project documents how I built and configured an **Active Directory environment** in my home lab. My main goals were to: - Learn how to deploy and manage a Windows Server Domain Controller.  
 - Create and manage users, groups, and Group Policies.  
