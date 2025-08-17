@@ -85,7 +85,6 @@ https://github.com/segunenix/AllScreenshots/blob/c93ac96c46af0bd865c5238d2530bef
 - **Problem:** Sysmon logs not showing in Splunk.  
   - **Fix:** Updated Splunk inputs.conf file (True and fales were suppose to be 1 and 0).  
 https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a319edb12547/Screenshot%202025-08-17%20121212.png
-https://github.com/MyDFIR/Active-Directory-Project
 - **Problem:** Splunk web interface not accessible.  
   - **Fix:** Confirmed service was running on port 8000.  
 
