@@ -48,7 +48,10 @@ https://github.com/segunenix/AllScreenshots/blob/bb7c5f760ae805ff8563682b6f58abc
 
 ### User & Group Management  
 - Created organizational units (OU).  
+https://github.com/segunenix/AllScreenshots/blob/30a21fde7aa8a8031655ad92fde743ede6351fb5/Screenshot%202025-08-17%20131747.png
+(I created the organizational unit HR and IT)
 - Added test users
+
 - Grouped users for easier policy management.  
 
 ---
