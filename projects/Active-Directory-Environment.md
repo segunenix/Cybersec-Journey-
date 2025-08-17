@@ -67,7 +67,6 @@ https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig
 - Installed Splunk Enterprise on Ubuntu Server.  
 - Installed Splunk Universal Forwarder on both Windows machines.  
 - Configured forwarders to send Sysmon logs to Splunk.  
-https://github.com/segunenix/AllScreenshots/blob/733864558f54ad11741e37cbe71b77c26327e13a/Screenshot%202025-08-17%20120613.png 
 
 ---
 
