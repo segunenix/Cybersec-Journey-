@@ -97,10 +97,27 @@ https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a31
 
 ---
 
-## Lessons Learned  
-- Active Directory depends on DNS to function.  
-- Group Policies are important for centralized security management.  
-- Sysmon provides detailed telemetry for threat detection.  
-- Splunk is effective for visualizing logs.  
+## Active Directory Brute Force Attack with Hydra
+This documentation demonstrates how a brute force attack can be carried out against a Windows client machine in an Active Directory lab environment using **Hydra** from Kali Linux.  
+---
+- Got Hydra tool setup
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20182157.png
+- Did some pre-attack checks
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20182407.png
+- Ran the Hydra command
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20182450.png
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20182543.png
+(i created the password.txt file and placed the correct password as the last password to simulate a successfull attempt)
+- Moving to the splunk events
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183042.png
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183058.png
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183159.png
+- The attempts happening at the same time signifies a brute force attack
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183259.png
+- Added the event code (4624) which is for successful logins
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183349.png
+- Was able to get the IP address of the attackers machine after expanding the event
+https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20183410.png
+
 
 --- 
