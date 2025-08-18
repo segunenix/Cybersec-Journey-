@@ -98,7 +98,7 @@ https://github.com/segunenix/AllScreenshots/blob/feba2df3a6a32e609fed0620a104a31
 ---
 
 ## Active Directory Brute Force Attack with Hydra
-This documentation demonstrates how a brute force attack can be carried out against a Windows client machine in an Active Directory lab environment using **Hydra** from Kali Linux.  
+This section demonstrates how a brute force attack can be carried out against a Windows client machine in an Active Directory lab environment using **Hydra** from Kali Linux.  
 ---
 - Got Hydra tool setup
 https://github.com/segunenix/AllScreenshots/blob/9fd11997bf95ff11d353182e47aaa21d12fc5b7e/Screenshot%202025-08-18%20182157.png
